@@ -23,13 +23,10 @@ export default {
       this.myScroll = new IScroll(this.$refs.navtabs, {
         scrollX: true,
         scrollY: false,
-        hScroll: true,
-        vScroll: false,
         scrollbars: false,
         snap: true,
         momentum: false,
-        click: true,
-        mouseWheel: true
+        click: true
       })
       window.x = this.myScroll
     },
