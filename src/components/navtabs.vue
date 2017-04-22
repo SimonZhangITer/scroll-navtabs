@@ -28,7 +28,6 @@ export default {
         momentum: false,
         click: true
       })
-      window.x = this.myScroll
     },
     clickTag(tag, e) {
       this.navlist.forEach(n => {
